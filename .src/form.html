@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игроки</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+                                                                <!--Текстовое поле-->
+<h2>Поиск игрока</h2>
+<label for="clientName">Имя</label>
+<input type="text" id="clientName" name="clientName" />
+                                                                <!--Радио-кнопки-->
+<h4>Хват клюшки</h4>
+<label>
+    левый <input type="radio" name="myRadio"/>
+</label>
+<label>
+    правый <input type="radio" name="myRadio"/>
+</label>
+                                                                <!--Множественный список-->
+<h4>Фирма экипировки</h4>
+<p><select size="3" multiple name="equipment[]">
+    <option disabled>Выберите фирму</option>
+    <option value="Bauer">Bauer</option>
+    <option value="Easton">Easton</option>
+    <option value="CCM">CCM</option>
+    </select></p>
+<p><input type="submit" value="Отправить"></p>
+                                                                <!--Выпадающий список-->
+<h4>Национальность</h4>
+<select id="selectID">
+    <option value=”RUS”>Россия</option>
+    <option value=”CAN”>Канада</option>
+    <option value=”USA”>США</option>
+</select>
+                                                                <!--Многострочный ввод-->
+<p><b>Комментарии к поиску:</b></p>
+<textarea rows="10" cols="45" name="text"></textarea>
+<p><input type="submit" value="Отправить"></p>
+                                                                <!--Чекбоксы-->
+<h4>Титулы</h4>
+<label>
+    <input type="checkbox" name="a" value="Stanley Cup"> Stanley Cup
+</label>
+<br />
+ <label>
+     <input type="checkbox" name="a" value="World Cup"> World Cup
+ </label>
+<br />
+<label>
+    <input type="checkbox" name="a" value="Olympic Games"> Olympic Games
+</label>
+<br />
+<label>
+    <input type="checkbox" name="a" value="Gagarin Cup"> Gagarin Cup
+</label>
+<p><input type="submit" value="Отправить"></p>
+                                                                <!--Ссылка на другую страницу-->
+<a class="link" target="_blank" href="./index.html">Турнирная таблица</a>
+</body>
+</html>

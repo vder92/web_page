@@ -1,0 +1,23 @@
+                        /*По тегу*/
+p {
+ color: red;
+}
+                        /*По id*/
+#first_element {
+ color: blue;
+}
+                        /*По классу*/
+.link {
+ font-weight: bold;
+}
+                        /*По аттрибуту и классу*/
+[align].date {
+ color: green;
+}
+body{
+            background-image: url("./sanya.jpg");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 100%;
+
+}
