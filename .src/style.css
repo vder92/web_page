@@ -1,23 +1,23 @@
-                        /*По тегу*/
+/*По тегу*/
 p {
  color: red;
 }
-                        /*По id*/
+/*По id*/
 #first_element {
  color: blue;
 }
-                        /*По классу*/
+/*По классу*/
 .link {
  font-weight: bold;
 }
-                        /*По аттрибуту и классу*/
+/*По аттрибуту и классу*/
 [align].date {
- color: green;
+    color: green;
 }
 body{
-            background-image: url("./sanya.jpg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100%;
+background-image: url("./sanya.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
 
 }
